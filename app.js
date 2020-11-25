@@ -8,6 +8,7 @@ const text3 = document.querySelector(".text3");
 
 
 btn1.addEventListener('click', function(){
+    body.classList.remove('darkorange', 'deepskyblue');
     btn1.classList.add('active');
     btn2.classList.remove('active');
     btn3.classList.remove('active');
